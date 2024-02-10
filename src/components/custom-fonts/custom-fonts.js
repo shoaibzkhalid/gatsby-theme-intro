@@ -8,8 +8,6 @@ const CustomFonts = () => (
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
     />
     <title>Shoaib - React Native Developer</title>
-
-    <link rel="icon" type="image/png" href="../../../images/favicon.ico"></link>
   </Helmet>
 )
 
