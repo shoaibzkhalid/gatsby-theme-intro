@@ -1,6 +1,7 @@
 import React from "react"
 import { FaEnvelope } from "react-icons/fa"
 import { ProfileType } from "../../types"
+import SocialLinks from "../social-links/social-links"
 
 const Header = ({ initials, social }) => (
   <header className="flex justify-between p-4 lg:px-8">
