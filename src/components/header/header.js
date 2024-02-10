@@ -10,10 +10,7 @@ const Header = ({ initials, social }) => (
       {initials}
     </span>
     
-      <div className="pt-8 pb-12 lg:py-0">
-        <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
-          Connect
-        </h5>
+      <div className="lg:py-0">
         <SocialLinks social={social} />
       </div>
     {/* <a
