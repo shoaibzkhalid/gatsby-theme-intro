@@ -10,7 +10,12 @@ const Header = ({ initials, social }) => (
       {initials}
     </span>
     
-    <SocialLinks social={social} />
+      <div className="pt-8 pb-12 lg:py-0">
+        <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
+          Connect
+        </h5>
+        <SocialLinks social={social} />
+      </div>
     {/* <a
       className="flex w-14 h-14 font-header font-semibold px-2 bg-lead rounded-full text-lead-text justify-center items-center leading-tight lg:w-auto lg:h-auto lg:px-6 lg:py-2 lg:rounded-lg lg:self-start lg:mt-4 hover:opacity-75 transition-opacity duration-150"
       href="#contact"

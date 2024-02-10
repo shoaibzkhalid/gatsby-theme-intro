@@ -26,12 +26,12 @@ const Sidebar = ({ profile, social }) => (
         )}
       </div>
 
-      <div className="pt-8 pb-12 lg:py-0">
+      {/* <div className="pt-8 pb-12 lg:py-0">
         <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
           Connect
         </h5>
         <SocialLinks social={social} />
-      </div>
+      </div> */}
     </div>
   </aside>
 )
